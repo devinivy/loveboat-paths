@@ -1,6 +1,6 @@
 {
   "name": "loveboat-paths",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "support listing multiple paths in hapi route config",
   "main": "lib/index.js",
   "directories": {
