@@ -1,0 +1,45 @@
+{
+  "name": "loveboat-paths",
+  "version": "0.0.0",
+  "description": "support listing multiple paths in hapi route config",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "lab -a code -t 100 -L",
+    "coveralls": "lab -r lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devinivy/loveboat-paths.git"
+  },
+  "keywords": [
+    "hapi",
+    "utility",
+    "preprocessor",
+    "route",
+    "routes",
+    "multiple",
+    "paths"
+  ],
+  "author": "Devin Ivy <devin@bigroomstudios.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devinivy/loveboat-paths/issues"
+  },
+  "homepage": "https://github.com/devinivy/loveboat-paths#readme",
+  "dependencies": {
+    "joi": "8.x.x"
+  },
+  "peerDependencies": {
+    "loveboat": "1.x.x"
+  },
+  "devDependencies": {
+    "code": "2.x.x",
+    "coveralls": "2.x.x",
+    "hapi": "13.x.x",
+    "lab": "10.x.x",
+    "loveboat": "1.x.x"
+  }
+}
