@@ -30,16 +30,17 @@
   },
   "homepage": "https://github.com/devinivy/loveboat-paths#readme",
   "dependencies": {
-    "joi": "8.x.x"
+    "joi": "12.x.x"
   },
   "peerDependencies": {
-    "loveboat": "1.x.x"
+    "loveboat": "1.x.x",
+    "hapi": ">=12.x.x <17"
   },
   "devDependencies": {
-    "code": "2.x.x",
-    "coveralls": "2.x.x",
-    "hapi": "13.x.x",
-    "lab": "10.x.x",
+    "code": "4.x.x",
+    "coveralls": "3.x.x",
+    "hapi": "16.x.x",
+    "lab": "14.x.x",
     "loveboat": "1.x.x"
   }
 }
