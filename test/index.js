@@ -75,7 +75,7 @@ describe('loveboat-paths', () => {
                 called++;
                 expect(routes).to.be.an.array();
                 expect(routes).to.have.length(1);
-                expect(routes[0]).to.equal(routeConfig);
+                expect(routes[0]).to.shallow.equal(routeConfig);
 
                 origRoute.apply(this, arguments);
             };
