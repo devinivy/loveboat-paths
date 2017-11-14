@@ -5,6 +5,8 @@ support listing multiple paths in hapi route config
 
 [![Build Status](https://travis-ci.org/devinivy/loveboat-paths.svg?branch=master)](https://travis-ci.org/devinivy/loveboat-paths) [![Coverage Status](https://coveralls.io/repos/devinivy/loveboat-paths/badge.svg?branch=master&service=github)](https://coveralls.io/github/devinivy/loveboat-paths?branch=master)
 
+Lead Maintainer - [Devin Ivy](https://github.com/devinivy)
+
 ## Usage
 
 This loveboat transform allows you to pass an array of route paths in your hapi route configuration, whereas hapi on its own only supports a single path.
